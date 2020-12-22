@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue="stepdefinitions",
 		plugin = { "pretty", "html:target/cucumber-reports" },
 		monochrome = true,
-		tags="@TC5"
+		tags="@TC3"
 		)
 public class TestRunner {
 
