@@ -31,7 +31,7 @@ Scenario: Naukri Login With Invalid Credentials
     Given landing on naukri home page "https://www.naukri.com/"
     Then click on login button
     When enter username
-    |uname|dinesh.amineni93@gmail.com|
+    |uname|%dinesh.amineni93@gmail.com%|
     And enter password
     |pwd|System20#|
     Then click on submit button
@@ -49,7 +49,7 @@ Scenario: Naukri Login With Invalid Credentials
 		#|url|https://www.naukri.com/|
     Then click on login button
     When enter username
-    |uname|dinesh.amineni93@gmail.com|
+    |uname|%dinesh.amineni93@gmail.com%|
     And enter password
     |pwd|System20#|
     Then click on submit button
@@ -67,7 +67,7 @@ Scenario: Naukri Login With Invalid Credentials
 		#|url|https://www.naukri.com/|
     Then click on login button
     When enter username
-    |uname|dinesh.amineni93@gmail.com|
+    |uname|%dinesh.amineni93@gmail.com%|
     And enter password
     |pwd|System20#|
     Then click on submit button
