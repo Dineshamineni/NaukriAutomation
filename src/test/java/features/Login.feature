@@ -5,9 +5,9 @@ Feature: naurki automation
     Given landing on naukri home page "https://www.naukri.com/"
     Then click on login button
     When enter username
-    |uname|%dinesh.amineni93@gmail.com%|
+    |uname|%username%|
     And enter password
-    |pwd|%System20#%|
+    |pwd|%password%|
     Then click on submit button
         #And ignore if alert is present
         And mouse hover to the My Naurki tab
@@ -31,9 +31,9 @@ Scenario: Naukri Login With Invalid Credentials
     Given landing on naukri home page "https://www.naukri.com/"
     Then click on login button
     When enter username
-    |uname|%dinesh.amineni93@gmail.com%|
+    |uname|%username%|
     And enter password
-    |pwd|System20#|
+    |pwd|%password%|
     Then click on submit button
         #And ignore if alert is present
     And click on update profile
@@ -49,9 +49,9 @@ Scenario: Naukri Login With Invalid Credentials
 		#|url|https://www.naukri.com/|
     Then click on login button
     When enter username
-    |uname|%dinesh.amineni93@gmail.com%|
+    |uname|%username%|
     And enter password
-    |pwd|System20#|
+    |pwd|%password%|
     Then click on submit button
         #And ignore if alert is present
     And click on update profile
@@ -67,9 +67,9 @@ Scenario: Naukri Login With Invalid Credentials
 		#|url|https://www.naukri.com/|
     Then click on login button
     When enter username
-    |uname|%dinesh.amineni93@gmail.com%|
+    |uname|%username%|
     And enter password
-    |pwd|System20#|
+    |pwd|%password%|
     Then click on submit button
     #And ignore if alert is present
     And click on update profile
