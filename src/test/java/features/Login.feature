@@ -5,9 +5,9 @@ Feature: naurki automation
     Given landing on naukri home page "https://www.naukri.com/"
     Then click on login button
     When enter username
-    |uname|dinesh.amineni93@gmail.com|
+    |uname|%dinesh.amineni93@gmail.com%|
     And enter password
-    |pwd|System20#|
+    |pwd|%System20#%|
     Then click on submit button
         #And ignore if alert is present
         And mouse hover to the My Naurki tab
